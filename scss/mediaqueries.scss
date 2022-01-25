@@ -1,0 +1,44 @@
+@media (max-width: 883px){
+    section.menu{
+        color: rgb(5, 5, 5);
+        font-style: italic;
+        font-weight: 500;
+        display: block;
+
+    }}
+    
+    @media screen and (max-width: 768px) {
+        .container-grid {
+          padding: 0%;
+          gap: 0;
+          grid-template-areas: "primera segunda" "tercera cuarta" "quinta sexta"; }
+        .primera,
+        .segunda,
+        .tercera,
+        .cuarta,
+        .quinta,
+        .sexta {
+          margin: 0%;
+          padding: .5%;
+          border: solid .1rem black; }
+        .container-productos {
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr 1fr;
+          grid-template-areas: "primera segunda" "tercera cuarta" "quinta sexta"; }
+          .primera,
+          .segunda,
+          .tercera,
+          .cuarta,
+          .quinta,
+          .sexta {
+            border: solid 0.1rem #232321;
+            margin: .1rem; }
+        
+        .imagen-Contacto {
+          width: 300px;
+          height: 295px; }
+
+        .contacto-consulta {
+          margin: .5rem;
+          padding: 1.5rem; } }
+      
